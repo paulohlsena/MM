@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  max-width: 400px;
+  z-index: 1;
+  
+  background: #F0EFEB;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #fff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0, 0.4);
+}
+.form #button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #05668D;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFF;
+  font-size: 15px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form #button:hover,.form #button:active,.form #button:focus {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #05668D;
+  font-size: 14px;
+  font-weight: bold;
+}
+.form .message a {
+  color: #05668D;
+  text-decoration: none;
+  font-weight: bold;
+}
+.form .register-form {
+  display: none;
+}
+
+body {
+  
+  background-color: #05668D;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}

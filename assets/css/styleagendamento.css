@@ -1,0 +1,795 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+
+body {
+
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F0EFEB;
+    font-family: 'Montserrat', sans-serif;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #05668D;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center
+  }
+
+  .headerarea{
+      width: 1050px;
+      height: 80px;
+      margin:auto;
+      display:flex;
+      align-items:center;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .logo{
+      font-size: 25px;
+      cursor: pointer;
+      font-weight: 600;
+  }
+
+  nav {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      justify-content: flex-end;
+      height: 100px;
+  }
+  nav a {
+      text-decoration: none;
+      color: #fff;
+      transition: 0.2s;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 40px;
+      
+  }
+
+  .active, nav a:hover {
+      max-height: 100px;
+      border-bottom: 5px solid #fff;
+      box-sizing: border-box;
+    }
+
+  .content {
+    padding-top: 100px; /* Ajuste conforme altura do header */
+  }
+
+  .content section {
+      width: 1050px;
+      margin: auto;
+  }
+
+  .contentarea2{
+      height: calc(100vh - 100px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .mailarea{
+      display: flex;
+      justify-content: center;
+      min-width: 1050px;
+      border: 2px solid #05668D;
+      height: 400px;
+  }
+
+  .formarea {
+      height: 400px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+      background-color: #05668D;
+      color: #fff;
+    }
+
+  form {
+      text-align: center;
+      margin: 25px;
+  }
+
+  form button {
+      margin-top: 25px;
+      width: 40%;
+  }
+    
+  .formarea select{
+      padding: 3px;
+      font-family: 'montserrat', sans-serif;
+      font-size: 15px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    
+  .formarea input{
+      padding: 5px;
+      border: none;
+      border-bottom: 1px solid #000;
+      margin: 10px; 
+      border-radius: 3px;
+    }
+    
+  .formarea button{
+      padding: 5px;
+      background-color: #d1dfa0;
+      color: #000;
+      font-weight: bold;
+      font-family: 'montserrat';
+      border: 1px solid white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+
+  input::placeholder{
+      text-align: center;
+  }
+    
+  .tittle, .resulttittle {
+      margin: 20px;
+      font-size: 25px;
+      text-align: center;
+      
+    }
+    
+  .resultarea{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      height: 100%;
+      justify-content: space-around;
+      background-color: #F0EFEB;
+    }
+    
+  #resultado{
+      font-family: Arial, Helvetica, sans-serif;
+      min-height: 150px;
+      font-size: 15px;
+      
+      width: 80%;
+      padding: 15px;
+      margin-top: 15px;
+      background-color: #fff;
+      box-shadow: 0 5px 7px 0 rgba(0,0,0, 0.6);
+    }
+
+  .hidden {
+    display: none;
+  }
+
+  .copy {
+    padding: 10px;
+    background-color: #05668D;
+    width: 150px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .cursor {
+    animation: piscar 1s infinite;
+  }
+  
+  /* Animação do cursor */
+  @keyframes piscar {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#standard .containerstandard{
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}  
+
+
+.standardcontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #505642;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.widget img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0, 0.4);
+  
+}
+
+.widget a {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.descriptionimg{
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .parentp2{
+    width: 1050px;
+  }
+
+  
+
+  .parentp2 .options {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+        "divp21 divp22 divp23"
+        "divp24 divp25 divp26"
+        "divp27 divp28 divp29"
+    ;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+    
+    .parentp2 .options div{
+        display: flex;    
+        justify-content: center;    
+        align-items: center;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 400;
+        height: 100px;
+        width: 300px;
+        
+    }
+
+    .divp21 { grid-area: divp21;}
+    .divp22 { grid-area: divp22;}
+    .divp23 { grid-area: divp23;}
+    .divp24 { grid-area: divp24;}
+    .divp25 { grid-area: divp25;}
+    .divp26 { grid-area: divp26;} 
+    .divp27 { grid-area: divp27;} 
+    .divp28 { grid-area: divp28;} 
+    .divp29 { grid-area: divp29;}
+    
+
+
+    
+
+
+    
+    
+    .wrapper{
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .parentp2 .options a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+      font-size: 18px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #fff;
+      background-color: #05668D;
+      letter-spacing: 2px;
+      position: relative;
+      transition: all .35s;
+
+    }
+    
+    .parentp2 .options a span{
+      position: relative;
+      z-index: 2;
+    }
+    
+    .parentp2 .options a:after{
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: #d1dfa0;
+      transition: all .35s;
+      
+    }
+    
+    .parentp2 .options a:hover{
+      color: #505642;
+    }
+    
+    .parentp2 .options a:hover:after{
+      width: 100%;
+    }
+
+
+    .infocont {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .info{
+      width: 50px;
+      height: 50px;
+      margin: 20px;
+      background-image: url('../images/bginfo.png');
+      border-radius: 50%;
+  
+    }
+
+    .info:hover{
+      background-image: url('../images/bginfo2.png');
+    }
+
+    .info:hover{
+      background-color: #d1dfa0;
+      cursor: pointer;
+    }
+
+    .infoarea {
+      display: none;
+      background-color: rgba(0,0,0, 0.9);
+      height: 400px;
+      width: 1050px;
+      z-index: 9999999;
+      position: absolute;
+      border-radius: 10px;
+      margin-top: 400px;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      flex-direction: column;
+    }
+
+    .infodesc p {
+      max-width: 700px;
+      line-height: 2;
+      font-weight: bold;
+    }
+
+    .infodesc{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .infodesc button {
+      padding: 12px;
+      background-color: #fff;
+      color: #000;
+      font-size: 18px;
+      border: none;
+      width: 200px;
+      cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*ESTILIZAÇÃO LEMBRETES*/
+
+
+    #pagina2 .containerp2 .p2section{
+      width: 1050px;
+
+    }
+
+    #pagina2 .containerp2 .p2section .busca {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    
+    #pagina2 .containerp2 .p2section .busca input{
+      height: 23px;
+      width: 250px;
+      border: 1px solid;
+    }
+
+    #pagina2 .containerp2 .p2section .busca span{
+      margin-left: 10px;      
+      cursor: pointer;
+    }
+
+    #pagina2 .containerp2 .p2section .mainp2{
+      display: flex;
+      margin-top: 50px;
+    }
+
+    #pagina2 .containerp2 .p2section .busca span:hover{
+      border: 1px solid;
+      border-radius: 5px;
+    }
+
+    #pagina2 .containerp2 .p2section .mainp2 .ramais img {
+      width: 300px;
+      height: 335px;
+      border: 1px solid black;
+      margin-right: 20px;
+    }
+
+
+    #pagina2 .containerp2 .p2section .mainp2 .preferenciamedicos{
+      border: 1px solid black;
+      height: 335px;
+      width: 100%;
+      background-color: #c5c5c5;
+    }
+
+    #pagina2 .containerp2 .p2section .mainp2 .preferenciamedicos .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      height: calc(100% - 60px);
+    }
+
+
+    #pagina2 .containerp2 .p2section .mainp2 .preferenciamedicos .acessarprefmed{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 20px;
+      height: 60px;
+    }
+
+    #pagina2 .containerp2 .p2section .mainp2 .preferenciamedicos .btnprefmed {
+      border: 1px solid black;
+      width: 150px;
+      height: 45px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    #pagina2 .containerp2 .p2section .mainp2 .preferenciamedicos .btnprefmed:hover{
+      background-color: #05668D;
+      color: #fff;
+    }
+
+
+
+
+
+
+
+
+    #pagina2 .containerp2 .p2section .mainp2-2{
+      margin-top: 15px;
+      margin-bottom: 50px;
+    }
+
+    #pagina2 .containerp2 .p2section .mainp2-2 .grampeadores{
+      border: 1px solid black;
+      height: 200px;
+      width: 100%;
+      background-color: #c5c5c5;
+    }
+
+    #pagina2 .containerp2 .p2section .mainp2-2 .grampeadores .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      height: calc(100% - 60px);
+    }
+
+
+    #pagina2 .containerp2 .p2section .mainp2-2 .grampeadores .acessargrampeadores{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 20px;
+      height: 60px;
+    }
+
+    #pagina2 .containerp2 .p2section .mainp2-2 .grampeadores .btngrampeadores {
+      border: 1px solid black;
+      width: 150px;
+      height: 45px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+
+    #pagina2 .containerp2 .p2section .mainp2-2 .grampeadores .btngrampeadores:hover {
+      background-color: #05668D;
+      color: #fff;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .container{
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+  }
+
+  .parent {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-areas:
+        "div1 div2 div2"
+        "div1 div3 div4"
+        "div5 div5 div4"
+        "div6 div7 div8"
+        "div9 div10 div10"
+    ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    
+    .div1 { grid-area: div1; border-radius: 10px; background-color: aqua; display: flex;    justify-content: center;    align-items: center;}
+    .div2 { grid-area: div2; border-radius: 10px; background-color: black; display: flex;    justify-content: center;    align-items: center;}
+    .div3 { grid-area: div3; border-radius: 10px; background-color: bisque; display: flex;    justify-content: center;    align-items: center;}
+    .div4 { grid-area: div4; border-radius: 10px; background-color: blueviolet; display: flex;    justify-content: center;    align-items: center;}
+    .div5 { grid-area: div5; border-radius: 10px; background-color: chocolate; display: flex;    justify-content: center;    align-items: center;}
+    .div6 { grid-area: div6; border-radius: 10px; background-color: crimson; display: flex;    justify-content: center;    align-items: center;}
+    .div7 { grid-area: div7; border-radius: 10px; background-color: chartreuse; display: flex;    justify-content: center;    align-items: center;}
+    .div8 { grid-area: div8; border-radius: 10px; background-color: burlywood; display: flex;    justify-content: center;    align-items: center;}
+    .div9 { grid-area: div9; border-radius: 10px; background-color: cornflowerblue; display: flex;    justify-content: center;    align-items: center;}
+    .div10 { grid-area: div10; border-radius: 10px; background-color: aquamarine; display: flex;    justify-content: center;    align-items: center;}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
