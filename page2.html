@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu com Conteúdo Dinâmico</title>
+  <link rel="stylesheet" href="assets/css/styleagendamento.css">
+  <script src="assets/js/scriptnavpage1.js" defer></script>
+  <script src="assets/js/scriptmail.js" defer></script>
+  <script src="assets/js/scriptTime.js" defer></script>
+  <script src="assets/js/infoprocess.js" defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body>
+
+<header>
+  <div class="headerarea">
+    <div class="logo">
+            <a href="">POS-CIRURGICO</a>
+    </div>
+    <nav>
+        <a href="page1.html">Home</a>
+        <a href="#pagina1">Processos</a>
+        <a href="#pagina2">Lembretes</a>
+        <a href="#pagina3">Email</a>
+        <a href="#pagina4">Painel</a>
+    </nav>
+  </div>
+</header>
+
+<div class="content">
+    <section id="standard">
+        <div class="containerstandard">
+            <div class="banner" id="time">
+
+            </div>
+            <div class="standardcontent">
+                <div class="widget">
+                    <a href="https://www.opmenexo.com.br/UserLandpage.do" target="_blank">
+                        <img src="assets/images/opme.png" alt="">
+                        <div class="descriptionimg">OPME NEXO</div>
+                    </a>
+                </div>
+                <div class="widget">
+                    <a href="https://fornecedores.inpartsaude.com.br/" target="_blank">
+                        <img src="assets/images/inpart.png" alt="">
+                        <div class="descriptionimg">INPART</div>
+                    </a>    
+                </div>
+                <div class="widget">
+                    <a href="https://api.emsventura.com.br/login/cc14862c/f98764da" target="_blank">
+                        <img src="assets/images/ems.png" alt="">
+                        <div class="descriptionimg">EMS Ventura</div>
+                    </a>
+                </div>
+                <div class="widget">
+                    <a href="https://www.gtplan.com.br" target="_blank">
+                        <img src="assets/images/gtplan.png" alt="">
+                        <div class="descriptionimg">GTPLAN</div>
+                    </a>
+                </div>
+                <div class="widget">
+                    <a href="https://portaldecompras.redesantacatarina.org.br" target="_blank">
+                        <img src="assets/images/vssuply.png" alt="">
+                        <div class="descriptionimg">VS Suply</div>
+                    </a>
+                </div>
+                <div class="widget">
+                    <a href="https://www.apoiocotacoes.com.br" target="_blank">
+                        <img src="assets/images/apoio.png" alt="">
+                        <div class="descriptionimg">Apoio cotações</div>
+                    </a>
+                </div>
+                <div class="widget">
+                    <a href="https://unimedbxm.opmes.com.br/gestao/www/login.php" target="_blank">
+                        <img src="assets/images/unimed.png" alt="">
+                        <div class="descriptionimg">Unimed BXM</div>
+                    </a>
+                </div>
+                <div class="widget">
+                    <a href="https://centralnacional.opmes.com.br/gestao/www/login.php" target="_blank">
+                        <img src="assets/images/unimed.png" alt="">
+                        <div class="descriptionimg">Unimed Nacional</div>
+                    </a>
+                </div>
+                <div class="widget">
+                    <a href="">
+                        <img src="assets/images/unimed.png" alt="">
+                        <div class="descriptionimg">Unimed Campinas</div>
+                    </a>
+                </div>
+                <div class="widget">
+                    <a href="https://unimedsorocaba.opmes.com.br/gestao/www/login.php" target="_blank">
+                        <img src="assets/images/unimed.png" alt="">
+                        <div class="descriptionimg">Unimed Sorocaba</div>
+                    </a>
+                </div>
+            </div>
+            <div class="widget2">
+                <div class="widget">
+                    <a href="https://guiamedico.cremesp.org.br/" target="_blank">
+                        <img src="assets/images/cremesp.png" alt="">
+                        <div class="descriptionimg">CREMESP</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pagina1" class="hidden">
+        <div class="container">
+            <div class="parentp2">
+                <div class="infocont">
+                    <div class="info" id="info" onclick="infoclick()"></div>
+                    <div class="infoarea" id="infoarea">
+                        <div class="infodesc">
+                            <h1>Seja bem-vindo à nossa página de processos!</h1>
+                            <p>Aqui, você encontrará fluxogramas valiosos que explicam visualmente nossos processos internos. Clique nos elementos para mais detalhes, siga as setas para entender a sequência e use o zoom para uma visão detalhada. Estamos à disposição para ajudar. Explore, descubra e entenda como tudo opera de forma eficiente e organizada.</p>
+                            <button onclick="fechar()">Fechar</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="options">
+                    <div class="divp21">
+                        <a href="#"><span>Relatório pós</span></a>
+                    </div>
+                    <div class="divp22">
+                        <a href="#"><span>Cadastrar cirurgia</span></a>
+                    </div>
+                    <div class="divp23">
+                        <a href="#"><span>Registro de materiais</span></a>
+                    </div>
+                    <div class="divp24">
+                        <a href="#"><span>Rastreabilidade</span></a>
+                    </div>
+                    <div class="divp25">
+                        <a href="#"><span>Cadastrar médico</span></a>
+                    </div>
+                    <div class="divp26">
+                        <a href="#"><span>Consultar tabela de preços</span></a>
+                    </div>
+                    <div class="divp27">
+                        <a href="#"><span>Produtos em estoque</span></a>
+                    </div>
+                    <div class="divp28">
+                        <a href="#"><span>Hover Me!</span></a>
+                    </div>
+                    <div class="divp29">
+                        <a href="#"><span>Hover Me!</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pagina2" class="hidden">
+        <div class="containerp2">
+            <div class="p2section">
+                <div class="busca">
+                    <input type="text" placeholder="buscar">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </div>
+                <div class="mainp2">
+                    <div class="ramais">
+                        <img src="assets/images/RAMAIS.png" alt="">
+                    </div>
+                    <div class="preferenciamedicos">
+                        <div class="content">CONDIÇÃO DE PAGAMENTO</div>
+                        <div class="acessarprefmed">
+                            <div class="btnprefmed">ACESSAR</div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="mainp2-2">
+                    <div class="grampeadores">
+                        <div class="content">REGRAS IMPORTANTES</div>
+                        <div class="acessargrampeadores">
+                            <div class="btngrampeadores">ACESSAR</div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pagina3" class="hidden">
+        <div class="contentarea2">
+            <div class="mailarea">
+                <div class="formarea">
+                    <div class="tittle">Preencha o formulário</div>
+                
+                    <select id="formSelector">
+                        <option value="form1">-</option>
+                        <option value="form2">-</option>
+                        <option value="form3">-</option>
+                        <option value="form4">-</option>
+                        <option value="form5">-</option>
+                    </select>
+                    <!--AGENDAR EQUIPAMENTO-->
+                    <form id="form1" class="form">
+                    <select id="saudacao1">
+                        <option value="bom dia">Bom dia</option>
+                        <option value="boa tarde">Boa tarde</option>
+                    </select>
+                    <input type="text" id="equipamento" placeholder="Nome do equipamento">
+                    <input type="text" id="data" placeholder="Data do procedimento">
+                    <input type="text" id="hora" placeholder="Hora do procedimento">
+                    <input type="text" id="paciente" placeholder="Nome do paciente">
+                    <input type="text" id="hospital" placeholder="Nome do hospital">
+                    <button type="button" onclick="gerarMensagem('form1')">Gerar</button>
+                    <button type="button" onclick="limparCampos('form1')">Limpar</button>
+                    </form>
+                    <!--SOLICITAR REPOSIÇÃO-->
+                    <form id="form2" class="form" style="display: none;">
+                        <select id="saudacao2">
+                            <option value="bom dia">Bom dia</option>
+                            <option value="boa tarde">Boa tarde</option>
+                        </select>
+                        <br>
+                        <input type="text" id="hospital2" placeholder="Hospital" size="20">
+                        <br>
+                        <input type="text" id="ref1" placeholder="REF." size="4">
+                        <input type="text" id="mat1" placeholder="Material" size="20">
+                        <input type="text" id="qtd1" placeholder="QTD." size="4" maxlength="2">
+                        <br>
+                        <input type="text" id="ref2" placeholder="REF." size="4">
+                        <input type="text" id="mat2" placeholder="Material" size="20">
+                        <input type="text" id="qtd2" placeholder="QTD." size="4" maxlength="2">
+                        <br>
+                        <button type="button" onclick="gerarMensagem('form2')">Gerar</button>
+                        <button type="button" onclick="limparCampos('form2')">Limpar</button>
+                    </form>
+                    <!--UTILIZAR CONSIGNADO-->
+                    <form id="form3" class="form" style="display: none;">
+                        <select id="saudacao3">
+                            <option value="Bom dia">Bom dia</option>
+                            <option value="Boa tarde">Boa tarde</option>
+                        </select>
+                        <br>
+                        <input type="text" id="solicitante3" placeholder="Solicitante">
+                        <br>
+                        <input type="text" id="representante3" placeholder="Representante">
+                        <button type="button" onclick="gerarMensagem('form3')">Gerar</button>
+                        <button type="button" onclick="limparCampos('form3')">Limpar</button>
+                    </form>
+                    <!--INFORMAR REPOSIÇÃO-->
+                    <form id="form4" class="form" style="display: none;">
+                        <select id="saudacao4">
+                            <option value="Bom dia">Bom dia</option>
+                            <option value="Boa tarde">Boa tarde</option>
+                        </select>
+                        <br>
+                        <input type="text" id="solicitante4" placeholder="Solicitante">
+                        <br>
+                        <button type="button" onclick="gerarMensagem('form4')">Gerar</button>
+                        <button type="button" onclick="limparCampos('form4')">Limpar</button>
+                    </form>
+                    <!--DECLINAR SEM MOTIVO-->
+                    <form id="form5" class="form" style="display: none;">
+                        <select id="saudacao5">
+                            <option value="Bom dia">Bom dia</option>
+                            <option value="Boa tarde">Boa tarde</option>
+                        </select>
+                        <br>
+                        <input type="text" id="solicitante5" placeholder="Solicitante">
+                        <br>
+                        <button type="button" onclick="gerarMensagem('form5')">Gerar</button>
+                        <button type="button" onclick="limparCampos('form5')">Limpar</button>
+                    </form>
+                </div>
+                <div class="resultarea">
+                <div class="resulttittle">
+                    E-mail
+                </div>
+                <div id="resultado"><span class="cursor">|</span></div>
+                <div class="copy">Copiar</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pagina4" class="hidden">
+        <div class="container">
+            <div class="parent">
+                <div class="div1">CFOP <BR><BR> 5102 - <BR> 6108 - <BR> 5919 - </div>
+                <div class="div2">2.</div>
+                <div class="div3">BLADED = COM FACA <br> BLADELESS = SEM FACA</div>
+                <div class="div4">4.</div>
+                <div class="div5">5.</div>
+                <div class="div6">6.</div>
+                <div class="div7">7.</div>
+                <div class="div8">8.</div>
+                <div class="div9">9.</div>
+                <div class="div10">REF. DOS NOVOS PRODUTOS <BR><BR> A051AE - <BR> DS044 - <BR></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
