@@ -1,9 +1,19 @@
 function acesso(){
     varUsu = document.getElementById("usu").value;
     varSenha = document.getElementById("senha").value;
-    if (varUsu == "agendamento" && varSenha == "123") {
-    alert("Acesso permitido")
-    location.href = "page1.html"
-    } else{
-     alert ("Acesso negado") }
+   
+    switch (true) {
+        case varUsu === "agendamento" && varSenha === "123":
+            alert("Acesso permitido");
+            location.href = "page1.html";
+            break;
+
+        case varUsu === "poscirurgico" && varSenha === "1234":
+            alert("Acesso permitido");
+            location.href = "page2.html";
+            break;
+
+        default:
+            alert("Acesso negado");
     }
+}
