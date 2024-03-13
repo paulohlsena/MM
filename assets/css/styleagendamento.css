@@ -704,18 +704,21 @@ body {
     grid-row-gap: 10px;
     }
     
-    .div1 { grid-area: div1; border-radius: 10px; background-color: aqua; display: flex;    justify-content: center;    align-items: center;}
-    .div2 { grid-area: div2; border-radius: 10px; background-color: black; display: flex;    justify-content: center;    align-items: center;}
-    .div3 { grid-area: div3; border-radius: 10px; background-color: bisque; display: flex;    justify-content: center;    align-items: center;}
-    .div4 { grid-area: div4; border-radius: 10px; background-color: blueviolet; display: flex;    justify-content: center;    align-items: center;}
-    .div5 { grid-area: div5; border-radius: 10px; background-color: chocolate; display: flex;    justify-content: center;    align-items: center;}
-    .div6 { grid-area: div6; border-radius: 10px; background-color: crimson; display: flex;    justify-content: center;    align-items: center;}
-    .div7 { grid-area: div7; border-radius: 10px; background-color: chartreuse; display: flex;    justify-content: center;    align-items: center;}
-    .div8 { grid-area: div8; border-radius: 10px; background-color: burlywood; display: flex;    justify-content: center;    align-items: center;}
-    .div9 { grid-area: div9; border-radius: 10px; background-color: cornflowerblue; display: flex;    justify-content: center;    align-items: center;}
-    .div10 { grid-area: div10; border-radius: 10px; background-color: aquamarine; display: flex;    justify-content: center;    align-items: center;}
+   
+    .div1 { grid-area: div1; border-radius: 10px; background-color: #6ab04c; display: flex;    justify-content: center;    align-items: center;}
+    .div2 { grid-area: div2; border-radius: 10px; background-color: #686de0; display: flex;    justify-content: center;    align-items: center;}
+    .div3 { grid-area: div3; border-radius: 10px; background-color: #eb4d4b; display: flex;    justify-content: center;    align-items: center;}
+    .div4 { grid-area: div4; border-radius: 10px; background-color: #6ab04c; display: flex;    justify-content: center;    align-items: center;}
+    .div5 { grid-area: div5; border-radius: 10px; background-color: #22a6b3; display: flex;    justify-content: center;    align-items: center;}
+    .div6 { grid-area: div6; border-radius: 10px; background-color: #130f40; display: flex;    justify-content: center;    align-items: center;}
+    .div7 { grid-area: div7; border-radius: 10px; background-color: #f0932b; display: flex;    justify-content: center;    align-items: center;}
+    .div8 { grid-area: div8; border-radius: 10px; background-color: #be2edd; display: flex;    justify-content: center;    align-items: center;}
+    .div9 { grid-area: div9; border-radius: 10px; background-color: #22a6b3; display: flex;    justify-content: center;    align-items: center;}
+    .div10 { grid-area: div10; border-radius: 10px; background-color: #535c68; display: flex;    justify-content: center;    align-items: center;}
 
    
+
+
 
 
 
