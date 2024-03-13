@@ -703,7 +703,14 @@ body {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     }
-    
+
+.parent div{
+      padding: 10px;
+      color: #FFF;
+      font-weight: bold;
+      text-align: center;
+      font-size: 18px;
+    }
    
     .div1 { grid-area: div1; border-radius: 10px; background-color: #6ab04c; display: flex;    justify-content: center;    align-items: center;}
     .div2 { grid-area: div2; border-radius: 10px; background-color: #686de0; display: flex;    justify-content: center;    align-items: center;}
